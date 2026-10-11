@@ -5,6 +5,7 @@ edition.workspace = true
 authors.workspace = true
 license.workspace = true
 repository.workspace = true
+readme = "../../README.md"
 description = "Hash-extraction library: pulls crackable password hashes out of 100+ file formats."
 
 [lints]
