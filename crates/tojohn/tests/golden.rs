@@ -426,16 +426,9 @@ fn krb() {
 #[test]
 fn radius() {
     let mut input = common::read_input("radius", "capture.pcap");
-    // the golden file records the absolute path (as python's abspath wrote it)
-    let manifest = std::env::var("CARGO_MANIFEST_DIR").unwrap();
-    // manifest dir is <root>/crates/tojohn; the golden file has the path
-    // relative to the repo root, as python's abspath produced it
-    let root = std::path::Path::new(&manifest)
-        .parent()
-        .and_then(|p| p.parent())
-        .expect("manifest two levels up");
-    let abs = root.join("fixtures").join("radius").join("capture.pcap");
-    input.label_override(abs.display().to_string());
+    // the radius line format echoes the input path; use a fixed relative
+    // label so the golden file stays platform-independent
+    input.label_override("fixtures/radius/capture.pcap".to_string());
     let out = radius::Radius.extract(&input).unwrap();
     common::expect_output("radius", &out);
 }
