@@ -1,0 +1,10 @@
+dn: cn=alice,dc=example,dc=net
+uid: alice
+userPassword: {SSHA}abc123
+cn: Alice Example
+homeDirectory: /home/alice
+
+dn: cn=bob,dc=example,dc=net
+uid: bob
+cn: Bob Builder
+

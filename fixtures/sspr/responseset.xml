@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ResponseSet>
+  <response>
+    <challenge>What is your pet?</challenge>
+    <answer format="SHA1" hashcount="1" salt="NONE">B:AAAAKODWnxHrBqTMvAmsPG5g1WU=</answer>
+  </response>
+  <response>
+    <challenge>Mothers maiden name?</challenge>
+    <answer format="PBKDF2" hashcount="10000" salt="somesaltvalue">MDEyMzQ1NjY3ODlhYmNkZWYwMTIzNDU2Nzg5YWJjZGVmMDEyMw==</answer>
+  </response>
+  <response>
+    <challenge>Fav color?</challenge>
+    <answer format="BCRYPT" hashcount="0" salt="NONE">$2a$05$abcdefghijklmnopqrstuv</answer>
+  </response>
+  <response>
+    <challenge>Old street?</challenge>
+    <answer format="SCRYPT" hashcount="0" salt="NONE">$s0$e0801$epIxT/h6HbbwHaehFnh/bw==$7H0vsXlY8UxxyW/BWx/9GuY7jEvGjT71GFd6O4SZND0=</answer>
+  </response>
+</ResponseSet>

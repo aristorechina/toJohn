@@ -1,0 +1,2 @@
+alice:{SSHA}abc123:1:1:Alice Example:/home/alice:/bin/sh
+bob:*:2:2:Bob Builder:/:/bin/sh

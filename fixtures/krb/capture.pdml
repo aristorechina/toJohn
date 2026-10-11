@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdml version="0.0.1">
+<packet>
+  <proto name="kerberos">
+    <field name="kerberos.msg_type" show="10"/>
+    <field name="kerberos.padata">
+      <field name="kerberos.etype" show="23"/>
+      <field name="kerberos.PA_ENC_TIMESTAMP.encrypted" show="WTvLO9tJ:hex:" value="aabbccddeeff00112233445566778899112233445566778899aabbccddeeff00"/>
+    </field>
+    <field name="kerberos.kdc_req_body">
+      <field name="kerberos.realm" show="EXAMPLE.NET"/>
+      <field name="kerberos.name_string" show="jsmith"/>
+    </field>
+  </proto>
+</packet>
+<packet>
+  <proto name="kerberos">
+    <field name="kerberos.msg_type" show="13"/>
+    <field name="kerberos.SNameString" show="krbtgt"/>
+    <field name="kerberos.SNameString" show="EXAMPLE.NET"/>
+    <field name="kerberos.enc_part_element">
+      <field name="kerberos.etype" show="23"/>
+      <field name="kerberos.cipher" value="00112233445566778899aabbccddeeff*deadbeefcafebabe0123456789abcdef"/>
+    </field>
+  </proto>
+</packet>
+<packet>
+  <proto name="kerberos">
+    <field name="kerberos.msg_type" show="11"/>
+    <field name="kerberos.salt" show="EXAMPLE.NETjsmith"/>
+    <field name="kerberos.enc_part_element">
+      <field name="kerberos.etype" show="1"/>
+      <field name="kerberos.cipher" value="77617373616c74"/>
+    </field>
+    <field name="kerberos.enc_part_element">
+      <field name="kerberos.etype" show="23"/>
+      <field name="kerberos.cipher" value="1111222233334444555566667777888899990000aaaabbbbccccddddeeeeffff"/>
+    </field>
+  </proto>
+</packet>
+</pdml>

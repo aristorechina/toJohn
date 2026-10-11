@@ -1,0 +1,4 @@
+CN=test,CN=Users,DC=example,DC=net:$sspr$1$1$4e4f4e45$00000028e0d69f11eb06a4ccbc09ac3c6e60d565:::::What is your pet?
+CN=test,CN=Users,DC=example,DC=net:$pbkdf2-hmac-sha1$10000$736f6d6573616c7476616c7565$3031323334353636373839616263646566303132:::::Mothers maiden name?
+CN=test,CN=Users,DC=example,DC=net:$2a$05$abcdefghijklmnopqrstuv:::::Fav color?
+CN=test,CN=Users,DC=example,DC=net:$ScryptKDF.pm$16384*8*1*epIxT/h6HbbwHaehFnh/bw==*7H0vsXlY8UxxyW/BWx/9GuY7jEvGjT71GFd6O4SZND0=:::::Old street?

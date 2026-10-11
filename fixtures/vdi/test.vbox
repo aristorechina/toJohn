@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VirtualBox xmlns="http://www.virtualbox.org/" version="1.16">
+  <Machine name="testvm">
+    <Property name="CRYPT/KeyId" value="diskid123"/>
+    <Property name="CRYPT/KeyStore" value="U0NORQABQUVTLVhUUzI1&#13;&#10;Ni1QTEFJTjY0AAAAAAAAAAAAAAAAAABQQktERjItU0hBMjU2AAAAAAAAAAAAAAAAAAAAAAAAACAAAAADChEYHyYtNDtCSVBXXmVsc3qBiI+WnaSrsrnAx87V3BAAAAAEDxolMDtGUVxncn2Ik56ptL/K1eDr9gEMFyItOENOWWDqAAAFCAsOERQXGh0gIyYpLC8yNTg7PkFER0pNUFNWWVxfYkANAwAQAAAABg8YISozPEVOV2BpcnuEjQ=="/>
+  </Machine>
+</VirtualBox>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="passcodeHash1">AbCdEf0123456789AbCdEf0123456789AbCdEf01</string>
+    <string name="passcodeSalt">c2FsdHNhbHRzYWx0c2FsdA==</string>
+    <int name="passcodeType" value="0" />
+</map>

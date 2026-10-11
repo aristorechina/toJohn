@@ -1,0 +1,7 @@
+admin:realm@example.com:5d93ceb70e2bf5daa84ec3f035e679d1
+user1:MyRealm:098f6bcd4621d373cade4e832627b4f6
+a::0123456789abcdef0123456789abcdef
+broken-line-no-colon
+only:two
+four:fields:x:0123456789abcdef0123456789abcdef
+trailing:space:0123456789abcdef0123456789abcdef   

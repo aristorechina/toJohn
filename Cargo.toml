@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+members = ["crates/tojohn", "crates/tojohn-cli"]
+
+[workspace.package]
+version = "0.0.1"
+edition = "2021"
+authors = ["Aristore"]
+license = "Apache-2.0"
+repository = "https://github.com/aristorechina/toJohn"
+
+# Warnings are errors: nothing in this workspace may build or test with warnings.
+[workspace.lints.rust]
+warnings = "deny"
+
+# Lean, self-contained release binaries for the release workflow.
+[profile.release]
+strip = true
+lto = "thin"
+
+[workspace.dependencies]
+tojohn = { path = "crates/tojohn", version = "0.0.1" }
+thiserror = "2"
+hex = "0.4"
+base64 = "0.22"
+md-5 = "0.10"
+sha1 = "0.10"
+sha2 = "0.10"
+flate2 = "1"
+serde_json = "1"
+regex = "1"
+rusqlite = { version = "0.32", features = ["bundled"] }
+plist = "1"
+clap = { version = "4", features = ["derive"] }

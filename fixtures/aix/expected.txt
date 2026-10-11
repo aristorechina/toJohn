@@ -1,0 +1,3 @@
+root:{smd5}$1$abc$0123456789abcdef01234567
+dba:{ssha1}06$YWJjZGVmZ2hp$0123456789abcdef0123456789abcdef01234567
+adm:abcd1234

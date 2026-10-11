@@ -1,0 +1,1 @@
+{"list": [{"identifier": "SALT1", "level": "SL5", "data": "U2FsdGVkX18AAQIDBAUGBwEEBwoNEBMWGRwfIiUoKy4xNDc6PUBDRklMT1JVWFteYWRnam1wc3Z5fH+ChYiLjg==\n", "validation": "AAECAwQFBgcICQoLDA0ODw==\n", "iterations": 1000}]}

@@ -1,0 +1,24 @@
+[package]
+name = "tojohn"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Hash-extraction library: pulls crackable password hashes out of 100+ file formats."
+
+[lints]
+workspace = true
+
+[dependencies]
+thiserror.workspace = true
+hex.workspace = true
+base64.workspace = true
+md-5.workspace = true
+sha1.workspace = true
+sha2.workspace = true
+flate2.workspace = true
+serde_json.workspace = true
+regex.workspace = true
+rusqlite.workspace = true
+plist.workspace = true

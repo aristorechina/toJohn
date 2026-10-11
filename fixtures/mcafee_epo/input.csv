@@ -1,0 +1,4 @@
+Name,AuthURI
+system,auth:pwd?pwd=kDv1oBRuGOU3MnpIDbyBJEmJZ%2FauS1zf
+adminepo,auth:ntlm?domain=XYZ&user=adminepo
+brokenline

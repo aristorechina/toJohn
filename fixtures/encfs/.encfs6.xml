@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="7">
+<cfg config_id="0">
+  <version>20100713</version>
+  <creator>EncFS 1.8.0</creator>
+  <cipherAlg type="string">ssl/aes-3-0-1</cipherAlg>
+  <name type="string">AES</name>
+  <keySize>256</keySize>
+  <blockSize>1024</blockSize>
+  <uniqueIV>1</uniqueIV>
+  <chainedNameIV>1</chainedNameIV>
+  <allowHoles>0</allowHoles>
+  <encodedKeySize>52</encodedKeySize>
+  <encodedKeyData>QmFzZTY0S2V5RGF0YUhlcmU=</encodedKeyData>
+  <saltLen>20</saltLen>
+  <kdfIterations>125000</kdfIterations>
+  <saltData>U2FsdFN0b3JlZABIRVJF</saltData>
+</cfg>
+</boost_serialization>

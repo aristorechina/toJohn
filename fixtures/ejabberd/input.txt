@@ -1,0 +1,9 @@
+{schema,[{table,users}]}.
+{passwd,{<<"alice">>,<<"example.com">>},{scram,<<"YWFhYQ==">>,<<"YmJiYg==">>,<<"Y2NjYw==">>,4096}}.
+{passwd,{<<"bob">>,<<"example.com">>},{scram,<<"ZGQ=">>,<<"ZQ==">>,<<"czM=">>,1500}}.
+{passwd,{<<"carol">>,<<"example.com">>},
+{scram,<<"a2V5MQ==">>,<<"a2V5Mg==">>,<<"czM=">>,999}}.
+{passwd,{baduser,<<"x.com">>},{scram,<<"YWFhYQ==">>,<<"YmJiYg==">>,<<"Y2NjYw==">>,10}}.
+{passwd,{<<"eve">>,<<"x.com">>}}.
+{passwd,{<<"mallory">>,<<"x.com">>},{scram,<<"YQ==">>,10}}.
+{passwd,{<<"truncated">>,<<"x.com">>},{scram,<<"YQ==">>,<<"Yg==">>,<<"Yw==">>,5}}

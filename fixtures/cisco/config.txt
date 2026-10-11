@@ -1,0 +1,13 @@
+!
+hostname core-router-1
+enable secret 5 $1$4C5N$JCdhRhHmlH4kdmLz.vsyq0
+!
+username admin secret 5 $1$AbCd$EfGhIjKlMnOpQrStUvWxw/
+username backup password 0 clearpass1
+line vty 0 4
+ password 7 08224F4008071B0A
+!
+wlan testwlan
+ wpa-psk ascii 7 110A1016141D
+!
+snmp-server community public RO

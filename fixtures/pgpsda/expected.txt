@@ -1,0 +1,3 @@
+The following hash is for an SDA archive with compressed length = 12345678, number of files = 3, iterations = 96. Make sure that these values sound correct!
+
+archive.sda:$pgpsda$0*96*01060b10151a1f24*090c0f1215181b1e

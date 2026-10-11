@@ -1,0 +1,3 @@
+jsmith:$krb5pa$23$jsmith$EXAMPLE.NET$$112233445566778899aabbccddeeff00aabbccddeeff00112233445566778899
+krbtgt/EXAMPLE.NET:$krb5tgs$23$00112233445566778899aabbccddeeff*deadbeefcafebabe0123456789abcdef
+$krb5asrep$23$1111222233334444555566667777888899990000aaaabbbbccccddddeeeeffff

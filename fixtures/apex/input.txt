@@ -1,0 +1,4 @@
+user1,0123456789abcdef0123456789abcdef,SGID1
+two,fields
+user2 , fedcba9876543210fedcba9876543210 , SGID2
+four,a,b,c

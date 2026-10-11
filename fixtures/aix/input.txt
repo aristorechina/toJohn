@@ -1,0 +1,9 @@
+root:
+	password = {smd5}$1$abc$0123456789abcdef01234567
+	 flags = 8
+dba:
+	password = {ssha1}06$YWJjZGVmZ2hp$0123456789abcdef0123456789abcdef01234567
+adm:
+	password = abcd1234
+daemon:
+	password = *

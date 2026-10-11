@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZillaServer>
+  <Users>
+    <User Name="admin">
+      <Option Name="Pass">5f4dcc3b5aa765d61d8327deb882cf99</Option>
+    </User>
+    <User Name="bob">
+      <Option Name="Salt">abc:def</Option>
+      <Option Name="Pass">AAABBBCCCDDDEEEFAAABBBCCCDDDEEEFAAABBBCCCDDDEEEFAAABBBCCCDDDEEEFAAABBBCCCDDDEEEFAAABBBCCCDDDEEEFAAABBBCCCDDDEEEFAAABBBCCCDDDEEEF</Option>
+    </User>
+  </Users>
+</FileZillaServer>

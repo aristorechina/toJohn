@@ -1,0 +1,2 @@
+admin:$dynamic_0$5f4dcc3b5aa765d61d8327deb882cf99
+bob:$dynamic_82$aaabbbcccdddeeefaaabbbcccdddeeefaaabbbcccdddeeefaaabbbcccdddeeefaaabbbcccdddeeefaaabbbcccdddeeefaaabbbcccdddeeefaaabbbcccdddeeef$HEX$6162633a646566

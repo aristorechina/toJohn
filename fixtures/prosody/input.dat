@@ -1,0 +1,5 @@
+server_user = "alice"
+iteration_count = 4096;
+stored_key = "YWJjZGVmZ2hp"
+server_key = "YmJiY2RlZg"
+salt = "c2FsdA"

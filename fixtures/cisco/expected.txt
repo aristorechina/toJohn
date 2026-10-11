@@ -1,0 +1,8 @@
+#!comment: Found recoverable or clear-text passwords, or other seed:
+core-router-1
+clearpass1
+ccna~~}
+ft\_Y
+public
+enable_secret:$1$4C5N$JCdhRhHmlH4kdmLz.vsyq0:config.txt
+username_admin_secret:$1$AbCd$EfGhIjKlMnOpQrStUvWxw/:config.txt

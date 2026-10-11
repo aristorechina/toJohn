@@ -1,0 +1,3 @@
+bob@example.com:$xmpp-scram$0$1500$2$7333$6464
+carol@example.com:$xmpp-scram$0$999$2$7333$6b657931
+baduser@x.com:$xmpp-scram$0$10$4$63636363$61616161

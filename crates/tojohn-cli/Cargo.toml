@@ -1,0 +1,19 @@
+[package]
+name = "tojohn-cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Unified command line front-end for the tojohn library."
+
+[[bin]]
+name = "tojohn"
+path = "src/main.rs"
+
+[lints]
+workspace = true
+
+[dependencies]
+tojohn.workspace = true
+clap.workspace = true
