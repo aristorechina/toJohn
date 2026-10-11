@@ -1,11 +1,11 @@
 # toJohn
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=plastic)](https://github.com/aristorechina/toJohn/blob/main/LICENSE)
+[![Crates.io](https://img.shields.io/crates/v/tojohn?logo=rust&logoColor=white&style=plastic&color=orange)](https://crates.io/crates/tojohn)
 [![GitHub](https://img.shields.io/badge/Github-toJohn-181716?style=plastic&logo=github&logoColor=white)](https://github.com/aristorechina/toJohn)
-[![Latest Release](https://img.shields.io/github/v/release/aristorechina/toJohn?sort=semver&style=plastic)](https://github.com/aristorechina/toJohn/releases/latest)
-[![Crates.io](https://img.shields.io/crates/v/tojohn?style=plastic)](https://crates.io/crates/tojohn)
+[![Latest Release](https://img.shields.io/github/v/release/aristorechina/toJohn?sort=semver&style=plastic&color=brightgreen)](https://github.com/aristorechina/toJohn/releases/latest)
 
-English | [简体中文](README_CN.md)
+English | [简体中文](https://github.com/aristorechina/toJohn/blob/main/README_CN.md)
 
 **toJohn** is an all-in-one password-hash extraction tool: it pulls crackable password hashes out of 100+ file formats and renders them as unified hash lines, ready to load into password crackers such as John the Ripper and hashcat.
 
@@ -79,7 +79,7 @@ Detection walks the registered formats in a fixed priority order, trying each fo
 cargo test
 ```
 
-The suite is 15 unit tests + 142 golden tests. Golden cases live in [`fixtures/`](fixtures/): each case = an input sample + its expected output (`expected.txt`), compared byte for byte against the extraction result. This is the project's acceptance standard for correctness — after any code change, run the suite once to confirm that every format's output is unchanged. Style and naming rules: [CONVENTIONS.md](CONVENTIONS.md).
+The suite is 15 unit tests + 142 golden tests. Golden cases live in [`fixtures/`](https://github.com/aristorechina/toJohn/tree/main/fixtures): each case = an input sample + its expected output (`expected.txt`), compared byte for byte against the extraction result. This is the project's acceptance standard for correctness — after any code change, run the suite once to confirm that every format's output is unchanged. Style and naming rules: [CONVENTIONS.md](https://github.com/aristorechina/toJohn/blob/main/CONVENTIONS.md).
 
 ## Project layout
 
@@ -93,7 +93,7 @@ CONVENTIONS.md   code style and naming rules
 
 ## License
 
-[Apache-2.0](LICENSE) © [Aristore](https://github.com/aristorechina)
+[Apache-2.0](https://github.com/aristorechina/toJohn/blob/main/LICENSE) © [Aristore](https://github.com/aristorechina)
 
 ## Acknowledgements
 
