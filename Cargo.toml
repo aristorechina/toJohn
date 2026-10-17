@@ -3,7 +3,7 @@ resolver = "2"
 members = ["crates/tojohn", "crates/tojohn-cli"]
 
 [workspace.package]
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 authors = ["Aristore"]
 license = "Apache-2.0"
@@ -19,7 +19,7 @@ strip = true
 lto = "thin"
 
 [workspace.dependencies]
-tojohn = { path = "crates/tojohn", version = "0.0.1" }
+tojohn = { path = "crates/tojohn", version = "0.0.2" }
 thiserror = "2"
 hex = "0.4"
 base64 = "0.22"
