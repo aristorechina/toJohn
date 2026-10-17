@@ -376,12 +376,15 @@ impl Rar {
                 let Some(file_flags) = reader.vuint() else {
                     break;
                 };
+                // RAR5 file flags: 0x01 directory, 0x02 mtime (u32),
+                // 0x04 CRC32 (u32), 0x08 unknown unpacked size. The optional
+                // mtime/CRC32 u32 fields must be consumed in this order.
                 let Some(_) = reader.vuint() else { break }; // unpacked size
                 let Some(_) = reader.vuint() else { break }; // attributes
-                if file_flags & 1 != 0 {
+                if file_flags & 0x02 != 0 {
                     let _ = reader.u32le();
                 }
-                if file_flags & 2 != 0 {
+                if file_flags & 0x04 != 0 {
                     let _ = reader.u32le();
                 }
                 let Some(_) = reader.vuint() else { break }; // compression info

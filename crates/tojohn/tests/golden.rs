@@ -909,6 +909,11 @@ fn rar5() {
 }
 
 #[test]
+fn rar5_crc32_flag() {
+    common::golden(&rar::Rar, "rar5_crc32", &["test.rar"]);
+}
+
+#[test]
 fn gpg() {
     common::golden(&gpg::Gpg, "gpg", &["secret.key"]);
 }
